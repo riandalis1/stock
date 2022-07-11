@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Poppins", "sans-serif";
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.hero {
+    padding-top: 8rem;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+        inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: 0.3rem;
+    }
+}
+
+#mynav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+}
+
+header .nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 3s;
+    animation-name: example;
+}
+
+.nav-active {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(27, 27, 27, 0.95);
+    box-shadow: 5px -1px 12px -5px grey;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+/* FORM LOGIN */
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.howToBuy {
+    background-color: #212429;
+}
